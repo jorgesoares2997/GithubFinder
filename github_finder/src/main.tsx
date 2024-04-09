@@ -10,11 +10,11 @@ import Home from './routes/Home.tsx';
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"/GithubFinder",
     element:<App/>,
     children:[
       {
-        path: "/",
+        path: "/GithubFinder",
         element: <Home />,
       },
     ]
